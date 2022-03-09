@@ -1,13 +1,41 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: "balboa-plus-primary", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 64px;
+  text-align: center;
+  margin: 75px 0;
+}
+
+h2 {
+  font-family: "balboa-plus-fill", sans-serif;
+  font-weight: 100;
+
+  font-size: 48px;
+}
+
+h3 {
+  font-family: "balboa-plus-fill", sans-serif;
+  font-weight: 100;
+
+  font-size: 36px;
+}
+
+p {
+  font-family: "balboa-plus-fill", sans-serif;
+  font-weight: 100;
+
+  font-size: 24px;
+  line-height: 113.5%;
+}
+
+a {
+  font-family: "balboa-plus-fill", sans-serif;
+  text-decoration: none;
 }
