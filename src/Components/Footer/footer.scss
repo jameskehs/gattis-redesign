@@ -1,0 +1,22 @@
+footer {
+  background-color: #b2282d;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  padding: 25px;
+
+  .link-category {
+    color: #fff;
+    margin: 0 50px;
+    ul {
+      font-family: "balboa-plus-inline", sans-serif;
+      font-size: 20px;
+      list-style: none;
+
+      li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}

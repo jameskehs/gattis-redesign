@@ -1,0 +1,121 @@
+#home #hero-img {
+  position: relative;
+  background-image: url("~/public/Images/Games/arcade.png");
+  height: 475px;
+  width: 100%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home #hero-img #hero-text {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 675px;
+  height: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+#home #hero-img #hero-text h2 {
+  font-size: 64px;
+}
+
+#home #hero-img a {
+  color: #000;
+  font-size: 28px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#home #hero-img a:hover {
+  color: #fff;
+  background-color: #b2282d;
+}
+
+#home .home-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#home .home-links-container .link-card {
+  height: 210px;
+  width: 210px;
+  margin: 35px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  color: #000;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-box-shadow: 2px 12px 33px -9px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 12px 33px -9px rgba(0, 0, 0, 0.25);
+}
+
+#home .home-links-container .link-card img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+#home .home-links-container .link-card:hover {
+  background-color: #b2282d;
+  color: #fff;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 2px 12px 33px -9px rgba(178, 40, 45, 0.25);
+          box-shadow: 2px 12px 33px -9px rgba(178, 40, 45, 0.25);
+}
+/*# sourceMappingURL=Home.css.map */
