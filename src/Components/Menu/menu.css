@@ -93,4 +93,17 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.all-toppings-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.all-toppings-container h3 {
+  color: #b2282d;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=menu.css.map */

@@ -33,16 +33,27 @@ const Menu = () => {
       <div className="all-toppings-container">
         <div className="topping-section">
           <h3>Sauces</h3>
-          {pizzaData.allToppings.sauces}
+          {pizzaData.allToppings.sauces.map((sauce) => {
+            return <p>{sauce}</p>;
+          })}
         </div>
         <div className="topping-section">
           <h3>Cheeses</h3>
+          {pizzaData.allToppings.cheeses.map((sauce) => {
+            return <p>{sauce}</p>;
+          })}
         </div>
         <div className="topping-section">
           <h3>Meats</h3>
+          {pizzaData.allToppings.meats.map((sauce) => {
+            return <p>{sauce}</p>;
+          })}
         </div>
         <div className="topping-section">
           <h3>Veggies</h3>
+          {pizzaData.allToppings.veggies.map((sauce) => {
+            return <p>{sauce}</p>;
+          })}
         </div>
       </div>
     </div>
