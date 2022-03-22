@@ -21,24 +21,24 @@ const Home = () => {
       blackImg: "./Images/Icons/party-black.png",
       whiteImg: "./Images/Icons/party-white.png",
     },
-    {
-      link: "/careers",
-      linkText: "Careers",
-      blackImg: "./Images/Icons/dollar-bill-black.png",
-      whiteImg: "./Images/Icons/dollar-bill-white.png",
-    },
-    {
-      link: "/rewards",
-      linkText: "Rewards",
-      blackImg: "./Images/Icons/badge-black.png",
-      whiteImg: "./Images/Icons/badge-white.png",
-    },
-    {
-      link: "/giftcards",
-      linkText: "Gift Cards",
-      blackImg: "./Images/Icons/credit-card-black.png",
-      whiteImg: "./Images/Icons/credit-card-white.png",
-    },
+    // {
+    //   link: "/careers",
+    //   linkText: "Careers",
+    //   blackImg: "./Images/Icons/dollar-bill-black.png",
+    //   whiteImg: "./Images/Icons/dollar-bill-white.png",
+    // },
+    // {
+    //   link: "/rewards",
+    //   linkText: "Rewards",
+    //   blackImg: "./Images/Icons/badge-black.png",
+    //   whiteImg: "./Images/Icons/badge-white.png",
+    // },
+    // {
+    //   link: "/giftcards",
+    //   linkText: "Gift Cards",
+    //   blackImg: "./Images/Icons/credit-card-black.png",
+    //   whiteImg: "./Images/Icons/credit-card-white.png",
+    // },
   ];
   return (
     <div id="home">

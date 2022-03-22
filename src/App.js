@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import Games from "./Components/Games/Games";
 import Events from "./Components/Events/Events";
+import Order from "./Components/Order/Order";
 
 function App() {
   return (
@@ -17,11 +18,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/games" element={<Games />} />
         <Route path="/events" element={<Events />} />
-        {/* <Route path="/menu" element={}/>
-        <Route path="/games" element={}/>
-        <Route path="/events" element={}/>
-        <Route path="/rewards" element={}/>
-        <Route path="/order" element={}/> */}
+        <Route path="/order" element={<Order />} />
       </Routes>
       <Footer />
     </div>
