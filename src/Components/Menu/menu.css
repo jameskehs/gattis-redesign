@@ -1,0 +1,109 @@
+.top-picks-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.top-picks-container .pizza-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 12px 33px -9px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 12px 33px -9px rgba(0, 0, 0, 0.25);
+  margin: 25px auto;
+  padding: 15px;
+  width: 45%;
+  min-width: 800px;
+}
+
+.top-picks-container .pizza-card img {
+  margin-right: 50px;
+}
+
+.top-picks-container .pizza-card .pizza-details h3 {
+  color: #b2282d;
+  margin-bottom: 25px;
+}
+
+.top-picks-container .pizza-card .pizza-details .pizza-toppings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-height: 165px;
+}
+
+.top-picks-container .pizza-card .pizza-details .pizza-toppings p {
+  margin-right: 50px;
+}
+
+.other-specialties-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.other-specialties-container .pizza-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 12px 33px -9px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 12px 33px -9px rgba(0, 0, 0, 0.25);
+  margin: 25px 50px;
+  padding: 15px;
+  width: 450px;
+  text-align: center;
+}
+
+.other-specialties-container .pizza-card .pizza-details h3 {
+  color: #b2282d;
+  margin-bottom: 25px;
+}
+
+.other-specialties-container .pizza-card .pizza-details .pizza-toppings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.all-toppings-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.all-toppings-container h3 {
+  color: #b2282d;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=menu.css.map */
