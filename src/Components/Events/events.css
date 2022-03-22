@@ -1,0 +1,113 @@
+.packages-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 150px;
+}
+
+.packages-container .package-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
+  width: 400px;
+  -webkit-box-shadow: 0 8px 33px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 8px 33px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.packages-container .package-card h3 {
+  color: #b2282d;
+  font-size: 30px;
+}
+
+.packages-container .package-card ul {
+  list-style: none;
+  font-family: "balboa-plus-fill";
+  font-size: 24px;
+}
+
+#booking-form {
+  margin: 0 auto;
+  -webkit-box-shadow: 0 8px 33px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 8px 33px 2px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1500px;
+  border-radius: 20px;
+}
+
+#booking-form h2 {
+  width: 100%;
+  margin: 50px 0;
+}
+
+#booking-form .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 15px;
+}
+
+#booking-form .input-group label {
+  font-family: "balboa-plus-fill";
+  font-size: 24px;
+}
+
+#booking-form .input-group input,
+#booking-form .input-group select {
+  font-family: "balboa-plus-fill";
+  font-size: 20px;
+  border: none;
+  background-color: #e0e0e0;
+  height: 40px;
+  width: 500px;
+  padding: 5px 10px;
+}
+
+#booking-form button {
+  margin: 75px;
+  width: 500px;
+  color: white;
+  background-color: #b2282d;
+  font-size: 24px;
+  font-family: "balboa-plus-fill";
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  -webkit-box-shadow: 2px 12px 33px -9px #b2282d;
+          box-shadow: 2px 12px 33px -9px #b2282d;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#booking-form button:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=events.css.map */
