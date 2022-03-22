@@ -1,4 +1,4 @@
-#Welcome!
+# Welcome!
 
 This project is a modern redesign of my first employers website. I wanted to play around with front-end tools and test my design skills with this project.
 
